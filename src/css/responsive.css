@@ -85,12 +85,11 @@
 
   main .imagem-ator {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 
   .sobre .logo {
     width: 9rem;
-    height: 3rem;
   }
 
   .name-person {
@@ -102,13 +101,14 @@
     color: #fff;
     position: absolute;
     z-index: 2;
-    top: 10rem;
+    top: 12rem;
     left: 1rem;
     height: max-content;
   }
 
   .sinopse {
     width: 100%;
+
     font-size: 0.6rem;
     line-height: 0.8rem;
   }
