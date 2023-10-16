@@ -1,36 +1,44 @@
-@media (max-width: 425px) {
-  main::after {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-height: 50vh;
-    min-width: 80vw;
-    background: linear-gradient(132deg, #080808 30%, rgba(0, 0, 0, 0) 58%) no-repeat;
+@media (max-width: 768px) {
+  .sobre {
+    width: 33rem;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    top: 8rem;
+    left: 1rem;
+    height: max-content;
   }
 
-  .personagens {
+  .sinopse {
     width: 100%;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .buttons button img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 425px) {
+
+  main::after {
+    content: "";
+    position: inherit;
+    top: 0;
+    left: 0;
+    background: linear-gradient(-234deg, #000 30%, rgba(0, 0, 0, 0) 58%) no-repeat;
   }
 
   main .imagem-ator {
-    max-width: 100%;
-    height: 100%;
-    overflow: hidden;
-    object-fit: fill;
-  }
-
-  .sobre {
     width: 100%;
-    top: 43%;
-    display: inline-grid;
-    left: 1rem;
-    align-items: center;
-    align-content: center;
+    height: auto;
   }
 
   .sobre .logo {
-    width: 13rem;
+    width: 12rem;
     height: 4rem;
   }
 
@@ -38,35 +46,81 @@
     font-size: 1.7rem;
   }
 
+  .sobre {
+    width: 18rem;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    top: 8rem;
+    left: 1rem;
+    height: max-content;
+  }
+
   .sinopse {
-    width: 90%;
+    width: 100%;
     font-size: 0.8rem;
+    line-height: 0.8rem;
   }
 
   .buttons {
-    position: relative;
-    display: flex;
-    flex-direction: initial;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 2rem;
+    width: 4rem;
+    height: 4rem;
+    top: 3rem;
   }
 
   .buttons .btn img {
-    max-width: 50px;
+    width: 3rem;
+    height: 3rem;
   }
 }
 
 @media (max-width: 320px) {
+  main::after {
+    content: "";
+    position: inherit;
+    top: 0;
+    left: 0;
+    background: linear-gradient(-234deg, #000 30%, rgba(0, 0, 0, 0) 58%) no-repeat;
+  }
+
+  main .imagem-ator {
+    width: 100%;
+    height: auto;
+  }
+
+  .sobre .logo {
+    width: 9rem;
+    height: 3rem;
+  }
+
+  .name-person {
+    font-size: 1.2rem;
+  }
+
   .sobre {
-    top: 70%;
+    width: 15rem;
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    top: 10rem;
+    left: 1rem;
+    height: max-content;
+  }
+
+  .sinopse {
+    width: 100%;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
   }
 
   .buttons {
-    padding-top: 30rem;
+    width: 4rem;
+    height: 4rem;
+    top: 5rem;
   }
 
   .buttons .btn img {
-    max-width: 37px;
+    width: 3rem;
+    height: 3rem;
   }
 }

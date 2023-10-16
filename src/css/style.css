@@ -48,16 +48,16 @@ section.personagem {
 }
 
 .logo {
-  height: 90px;
-  width: 258px;
-  background-image: url("../img/logo-\ devseries.png");
+  height: 6rem;
+  width: 19.4rem;
+  background-image: url("../img/logo\ devseries.png");
   background-size: cover;
   border-radius: 1rem;
 
 }
 
 .sobre {
-  max-width: 35rem;
+  width: 45rem;
   color: #fff;
   position: absolute;
   z-index: 2;
@@ -79,9 +79,9 @@ section.personagem {
 .sinopse {
   font-family: "monospace", sans-serif;
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1rem;
   line-height: 23px;
-
+  width: 70%;
 }
 
 .buttons {
@@ -105,8 +105,8 @@ section.personagem {
 }
 
 .buttons button img {
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
 }
 
